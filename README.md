@@ -15,6 +15,10 @@ To prevent the downloaded package files from being cleaned up, pass `$true` to t
 
 # Installation
 
+Run: `Install-Module -Name chocolateySourceExtensions`
+
+*or*
+
 Clone the code anywhere. In Powershell, write:
 
 `Import-Module "<path-to-cloned-directory>/chocolateySourceExtensions.psm1"`
